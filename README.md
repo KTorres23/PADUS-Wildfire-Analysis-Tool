@@ -1,7 +1,7 @@
 # PADUS Wildfire Analysis Tool (PWAT)
 
 > ### Quick start:
-> 1. Download wildfire_tool.zip
+> 1. [Download the zip file PADUS_Wildfire_Analysis_Tool.zip](PADUS_Wildfire_Analysis_Tool.zip)
 > 2. Extract folder contents in an ArcGIS Pro project
 > 3. Run the tool using the provided sample data or your own data
 
@@ -34,7 +34,7 @@ The PADUS Wildfire Analysis Tool (PWAT) allows users to query ecoregions to narr
 
 > [!IMPORTANT]
 > To run the PWAT, you must first [download the zip file](PADUS_Wildfire_Analysis_Tool.zip)
- containing the source code and data from my Github page: https://github.com/KTorres23/wildfire_project.
+ containing the source code and data from [this page](https://github.com/KTorres23/PADUS-Wildfire-Analysis-Tool) you are on.
 
 You should open a new project in ArcGIS Pro, unzip this file, place it in your new project folder, and access the PWAT through the Catalog pane.
 
