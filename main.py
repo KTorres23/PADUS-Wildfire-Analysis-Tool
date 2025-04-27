@@ -23,7 +23,7 @@ try:
     ecoregion_query = arcpy.GetParameterAsText(3)           # SQL query for filtering ecoregions
     padus_feature_class = arcpy.GetParameterAsText(4)       # Path to the PADUS feature class
     output_folder = arcpy.GetParameterAsText(5)             # Output folder for the geodatabase
-    geodatabase_name = "wildfire_output.gdb"                         # Name of the geodatabase
+    geodatabase_name = "wildfire_output.gdb"                # Name of the geodatabase
 
     # Construct the full path to the output geodatabase
     output_geodatabase = os.path.join(output_folder, geodatabase_name)
@@ -146,18 +146,20 @@ try:
     # Add selected ecoregions to the map
     selected_ecoregions_layer_file = os.path.join(output_folder, "selected_ecoregions.lyrx")
     arcpy.management.SaveToLayerFile(selected_ecoregions_layer, selected_ecoregions_layer_file, "RELATIVE")
-    map_view.addDataFromPath(selected_ecoregions_layer_file)  # Add the layer file to the map
+    map_view.addDataFromPath(selected_ecoregions_layer_file)  
     arcpy.AddMessage("Added selected ecoregions to the map.")
 
     # Add wildfire points with PADUS information to the map
-    map_view.addDataFromPath(wildfire_with_padus)   # Add the wildfire points feature class
+    map_view.addDataFromPath(wildfire_with_padus)
     arcpy.AddMessage("Added wildfire points with PADUS information to the map.")
 
     # Add each buffer with PADUS information to the map
     for buffer_with_padus in buffer_with_padus_outputs:
-        buffer_with_padus_path = buffer_with_padus.getOutput(0)  # Extract the path
-        map_view.addDataFromPath(buffer_with_padus_path)         # Add the buffer feature class
+        buffer_with_padus_path = buffer_with_padus.getOutput(0)  
+        map_view.addDataFromPath(buffer_with_padus_path)         
         arcpy.AddMessage(f"Added buffer with PADUS information to the map: {buffer_with_padus_path}")
+
+
 
     arcpy.AddMessage("All processing completed successfully.")
 
