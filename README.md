@@ -1,7 +1,7 @@
 # PADUS Wildfire Analysis Tool (PWAT)
 
 > ### Quick start:
-> 1. [Download the zip file PADUS_Wildfire_Analysis_Tool.zip](PADUS_Wildfire_Analysis_Tool.zip)
+> 1. [Download the zip file PADUS_Wildfire_Analysis_Tool.zip](https://doi.org/10.5281/zenodo.15293066)
 > 2. Extract folder contents in an ArcGIS Pro project
 > 3. Run the tool using the provided sample data or your own data
 
@@ -33,8 +33,8 @@ The PADUS Wildfire Analysis Tool (PWAT) allows users to query ecoregions to narr
     - A layer, four CSV files, and a geodatabase will be saved here.
 
 > [!IMPORTANT]
-> To run the PWAT, you must first [download the zip file](PADUS_Wildfire_Analysis_Tool.zip)
- containing the source code and data from [this page](https://github.com/KTorres23/PADUS-Wildfire-Analysis-Tool) you are on.
+> To run the PWAT, you must first [download the zip file](https://doi.org/10.5281/zenodo.15293066)
+ containing the source code and data from [Zenodo](https://doi.org/10.5281/zenodo.15293066) you are on.
 
 You should open a new project in ArcGIS Pro, unzip this file, place it in your new project folder, and access the PWAT through the Catalog pane.
 
@@ -62,5 +62,7 @@ Additionally, the “outputs” folder will have 8 CSV and XML files with the wi
 * Doerr, S. H., & Santín, C. (2016). Global trends in wildfire and its impacts: Perceptions versus realities in a changing world. *Philosophical Transactions of the Royal Society B: Biological Sciences*, 371(1696), 20150345. https://doi.org/10.1098/rstb.2015.0345
 * Miller, C., & Ager, A. A. (2013). A review of recent advances in risk analysis for wildfire management. *International Journal of Wildland Fire*, 22(1), 1. https://doi.org/10.1071/WF11114
 * Parks, S. A., Guiterman, C. H., Margolis, E. Q., Lonergan, M., Whitman, E., Abatzoglou, J. T., Falk, D. A., Johnston, J. D., Daniels, L. D., Lafon, C. W., Loehman, R. A., Kipfmueller, K. F., Naficy, C. E., Parisien, M.-A., Portier, J., Stambaugh, M. C., Williams, A. P., Wion, A. P., & Yocom, L. L. (2025). A fire deficit persists across diverse North American forests despite recent increases in area burned. *Nature Communications*, 16(1), 1493. https://doi.org/10.1038/s41467-025-56333-8
+* Short, K. C. (2022). *Spatial wildfire occurrence data for the United States, 1992-2020 [FPA_FOD_20221014] (Version 6th Edition)* [Dataset]. Fort Collins, CO: Forest Service Research Data Archive. https://doi.org/10.2737/RDS-2013-0009.6
+* United States Environmental Protection Agency (U.S. EPA). (2024). Ecoregions of North America: Level II Ecoregions, https://www.epa.gov/eco-research/ecoregions-north-america
 * U.S. Geological Survey (USGS) Gap Analysis Project (GAP). (2024). Protected Areas Database of the United States (PAD-US) 4: U.S. Geological Survey data release, https://doi.org/10.5066/P96WBCHS. 
 
