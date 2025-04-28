@@ -34,7 +34,7 @@ The PADUS Wildfire Analysis Tool (PWAT) allows users to query ecoregions to narr
 
 > [!IMPORTANT]
 > To run the PWAT, you must first [download the zip file](https://doi.org/10.5281/zenodo.15293066)
- containing the source code and data from [Zenodo](https://doi.org/10.5281/zenodo.15293066) you are on.
+ containing the source code and data from [Zenodo](https://doi.org/10.5281/zenodo.15293066).
 
 You should open a new project in ArcGIS Pro, unzip this file, place it in your new project folder, and access the PWAT through the Catalog pane.
 
